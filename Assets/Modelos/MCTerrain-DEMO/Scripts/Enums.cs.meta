@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 07d266e956f064d46b2a14be34e217b9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Scripts/Enums.cs
+  uploadId: 612505

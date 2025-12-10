@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a9001019277c072418b525e05118a4ba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Scripts/GameData.cs
+  uploadId: 612505

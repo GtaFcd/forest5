@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 48e7365331c600741ac07deda3571f44
+timeCreated: 1429290660
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Scripts/HeightMapGeneration/AccidentalNoise/Enums/CombinerType.cs
+  uploadId: 612505

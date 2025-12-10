@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 148d26c9fba0f97448fc70ae2d0cf1cb
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Shaders/Terrain/BuiltInPipeline/MySurface.cginc
+  uploadId: 612505

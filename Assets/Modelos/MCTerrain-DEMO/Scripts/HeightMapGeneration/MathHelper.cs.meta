@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4a203095e8e111a4395fb7d87ac7408f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Scripts/HeightMapGeneration/MathHelper.cs
+  uploadId: 612505

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 42023548764779b4ab6b2d6aeb54177e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Editor/MyBaseShaderGUI.cs
+  uploadId: 612505

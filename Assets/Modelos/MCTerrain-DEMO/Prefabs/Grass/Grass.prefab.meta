@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 498e87eb4882dab4a8e9d0e066186da2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Prefabs/Grass/Grass.prefab
+  uploadId: 612505

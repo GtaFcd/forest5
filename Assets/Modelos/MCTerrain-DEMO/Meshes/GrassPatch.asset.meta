@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58127f550b765864a92959b2d9a7634b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Meshes/GrassPatch.asset
+  uploadId: 612505

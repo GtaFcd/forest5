@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 415c37c836fda2f4e9ff49ec42d9ce74
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Prefabs/MCTerrain.prefab
+  uploadId: 612505

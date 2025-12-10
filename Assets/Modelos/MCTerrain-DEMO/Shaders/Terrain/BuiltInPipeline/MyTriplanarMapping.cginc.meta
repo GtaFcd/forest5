@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0258388f74b553b4098af05bf1fd8cfa
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Shaders/Terrain/BuiltInPipeline/MyTriplanarMapping.cginc
+  uploadId: 612505

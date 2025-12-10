@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb9f8d5ef7d293741bec529aa3c04b82
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Materials/Grass/Grass.mat
+  uploadId: 612505

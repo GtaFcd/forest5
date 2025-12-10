@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7ee48d25a7d925f46a269ec113d964be
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Shaders/Terrain/BuiltInPipeline/Triplanar Shader.shader
+  uploadId: 612505

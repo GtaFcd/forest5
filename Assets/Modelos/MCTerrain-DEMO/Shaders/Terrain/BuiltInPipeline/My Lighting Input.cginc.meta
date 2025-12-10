@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d5587252c36bb8647bda6175c15e668d
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Shaders/Terrain/BuiltInPipeline/My Lighting Input.cginc
+  uploadId: 612505

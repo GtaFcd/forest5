@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fdbca12e46764569abc9108c76d0179e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Scripts/Readme/MCTerrainReadme.asset
+  uploadId: 612505

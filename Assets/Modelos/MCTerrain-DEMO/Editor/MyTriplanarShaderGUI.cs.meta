@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 328c57ae9021b484781da87555f5c995
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Editor/MyTriplanarShaderGUI.cs
+  uploadId: 612505

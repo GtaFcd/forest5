@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7a89143eaacd7b348804b77738d232d7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 261253
+  packageName: MC Terrain DEMO
+  packageVersion: 1.0.1
+  assetPath: Assets/MCTerrain-DEMO/Prefabs/FloorPlane.prefab
+  uploadId: 612505
