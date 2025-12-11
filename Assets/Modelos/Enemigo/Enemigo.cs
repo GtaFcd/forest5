@@ -21,6 +21,14 @@ public class Enemigo : MonoBehaviour
         target = GameObject.Find("Player");
     }
 
+    void OnTrggerEnter(Collider coll)
+    {
+        if (coll.CompareTag("arma"))
+        {
+            print("Daño");
+        }
+    }
+
 
     void Update()
     {//aqui es donde estamos indicando el comportamiento del enemigo
