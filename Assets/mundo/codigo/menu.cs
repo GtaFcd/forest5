@@ -30,6 +30,7 @@ public class menu : MonoBehaviour
     {
         //SceneManager.LoadScene("inicio");
         carga.SetActive(true);
+        transition.gameObject.SetActive(true);
         transition.Playanimacon();
         mainMenu.SetActive(false);
 

@@ -70,6 +70,8 @@ public class Transition : MonoBehaviour
     public void Playanimacon()
     {
         anim.Play("carga");
+        Debug.Log("Toy cargando");
+        LoadScene("inicio");
     }
 
     public void Iniciogame()
@@ -106,4 +108,10 @@ public class Transition : MonoBehaviour
         if (progressSlider != null) progressSlider.value = progressValue;
         if (progressLabel.text != null) progressLabel.text = $"{progressValue * 100}%";
     }
+
+    public void ChangeScene()
+    {
+        SceneManager.LoadScene(1);
+        gameObject.SetActive(false);
+    }    
 }

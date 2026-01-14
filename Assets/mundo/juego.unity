@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+  m_FogColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.114
+  m_FogDensity: 0.097
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
@@ -25,10 +25,10 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.049952626, g: 0.018600928, b: 0.3584906, a: 1}
   m_AmbientIntensity: 0
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.11320752, g: 0.11320752, b: 0.11320752, a: 1}
+  m_SubtractiveShadowColor: {r: 0.047169805, g: 0.047169805, b: 0.047169805, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 3d75205aa6eaf2749803f1c189f694fa, type: 2}
-  m_HaloStrength: 0.146
-  m_FlareStrength: 0.313
+  m_HaloStrength: 0.088
+  m_FlareStrength: 0.263
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
@@ -157,6 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
+  Linterna: {fileID: 0}
+  bateria: 0
 --- !u!114 &2676609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,7 +1006,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &330585545
 Camera:
   m_ObjectHideFlags: 0
@@ -3636,6 +3638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
+  Linterna: {fileID: 0}
+  bateria: 0
 --- !u!1 &551065501 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3587788796799408565, guid: 1c5ef2d13c7d5e24d97f6f9386b1804f, type: 3}
@@ -3740,6 +3744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
+  Linterna: {fileID: 0}
+  bateria: 0
 --- !u!1001 &642242092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4085,6 +4091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
+  Linterna: {fileID: 0}
+  bateria: 0
 --- !u!1 &655917605
 GameObject:
   m_ObjectHideFlags: 0
@@ -4874,6 +4882,135 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &907728828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 907728830}
+  - component: {fileID: 907728829}
+  m_Layer: 0
+  m_Name: sosurros
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &907728829
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907728828}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 873213ab0726f5d42891e778187bd5f5, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &907728830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907728828}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 400.138, y: -0, z: 420.98813}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1004416622
 GameObject:
   m_ObjectHideFlags: 0
@@ -5434,6 +5571,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
+  Linterna: {fileID: 0}
+  bateria: 0
 --- !u!1 &1433091310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6208,6 +6347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
+  Linterna: {fileID: 0}
+  bateria: 0
 --- !u!1001 &1635948755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6579,9 +6720,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.59489447, g: 0.6320754, b: 0, a: 1}
-  m_Intensity: 35.66
-  m_Range: 10
+  m_Color: {r: 0.9440994, g: 1, b: 0, a: 1}
+  m_Intensity: 88.3
+  m_Range: 14.684191
   m_SpotAngle: 42.45513
   m_InnerSpotAngle: 34.899246
   m_CookieSize: 10
@@ -6826,6 +6967,137 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
+  Linterna: {fileID: 0}
+  bateria: 0
+--- !u!1 &1867147700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867147702}
+  - component: {fileID: 1867147701}
+  m_Layer: 0
+  m_Name: aves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1867147701
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867147700}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 8c4fe592d2a3691409a697b85e05507a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1867147702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867147700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 394.56845, y: 0.41722, z: 435.2437}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1869748187
 GameObject:
   m_ObjectHideFlags: 0
@@ -7386,7 +7658,7 @@ Transform:
   m_GameObject: {fileID: 1934145235}
   serializedVersion: 2
   m_LocalRotation: {x: -0.054885037, y: -0.13262215, z: 0.0073179943, w: -0.98961884}
-  m_LocalPosition: {x: 359.583, y: 8.342, z: 350.686}
+  m_LocalPosition: {x: 359.509, y: 8.342, z: 350.866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7430,23 +7702,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.142
+      value: -0.023226507
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.045
+      value: -1.0620542
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.57
+      value: 0.41678646
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.73777634
+      value: -0.7377764
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.124198064
+      value: 0.12419808
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34ddae006d21676448d38474407a9c18, type: 3}
       propertyPath: m_LocalRotation.y
@@ -7533,6 +7805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2385972cd3625241b09634f9a7fa012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bateria
+  Linterna: {fileID: 0}
+  bateria: 0
 --- !u!1 &1976125571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5731229141766309534, guid: b9ecec778946d37478d0fb6fe0bb49e5, type: 3}
@@ -8116,3 +8390,5 @@ SceneRoots:
   - {fileID: 388324646}
   - {fileID: 345074716}
   - {fileID: 520227603}
+  - {fileID: 1867147702}
+  - {fileID: 907728830}
