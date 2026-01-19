@@ -1,8 +1,14 @@
+using TMPro;
 using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
     public CharacterController Controlador;
+
+    public AudioSource pasos;
+
+    private bool Vactivo;
+    private bool Hactivo;
 
     public float Velocidad = 15f;
     public float Gravedad= -10f;
@@ -38,6 +44,48 @@ public class Movimiento : MonoBehaviour
         VelocidadAbajo.y += Gravedad * Time.deltaTime;
 
         Controlador.Move(VelocidadAbajo * Time.deltaTime);
+
+        if(Input.GetButtonDown("Horiontal"))
+        {
+            if(Vactivo == false)
+            {
+               Hactivo = true;
+               pasos.Play();
+            }
+            
+        }
+
+        if(Input.GetButtonDown("Vertical"))
+        {
+            if (Hactivo == false)
+            {
+              Vactivo = true;
+              pasos.Play();
+            }
+           
+        }
+
+        if(Input.GetButtonUp("Horizontal"))
+        {
+            Hactivo = false;
+            if(Vactivo == false)
+            {
+                pasos.Pause();
+            }
+            
+        }
+        
+        if(Input.GetButtonUp("Vertical"))
+        {
+            Vactivo = false;
+            if(Hactivo == false)
+        {
+            pasos.Pause();
+        }
+
+        }
     }
+
+
     
 }
